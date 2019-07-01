@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
         Spinner myspinner6 = (Spinner)findViewById(R.id.spinner6);
 
-        ArrayAdapter<String> myadapter6= new ArrayAdapter<String>(MainActivity.this,android.R.layout.simple_list_item_1,getResources().getStringArray(R.array.Matress));
+        ArrayAdapter<String> myadapter6= new ArrayAdapter<String>(MainActivity.this,android.R.layout.simple_list_item_1,getResources().getStringArray(R.array.Mattress));
         myadapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         myspinner2.setAdapter(myadapter2);
 
@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
         Spinner myspinner10 = (Spinner)findViewById(R.id.spinner10);
 
-        ArrayAdapter<String> myadapter10= new ArrayAdapter<String>(MainActivity.this,android.R.layout.simple_list_item_1,getResources().getStringArray(R.array.Miscelaneous);
+        ArrayAdapter<String> myadapter10= new ArrayAdapter<String>(MainActivity.this,android.R.layout.simple_list_item_1,getResources().getStringArray(R.array.Miscellaneous));
         myadapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         myspinner2.setAdapter(myadapter2);
     }
