@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#09024A</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="colored_checkbox" parent="Theme.AppCompat.Light">
+        <!--SELECTED CHECKBOX COLOR LIGHT BLUE-->
+        <item name="colorAccent">#A3C9F2</item>
+        <!--DEFAULT WHITE-->
+        <item name="android:textColorSecondary">#FFFFFF</item>
+    </style>
+
+</resources>

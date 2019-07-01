@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/Background"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="265.92dp"
+        android:layout_height="36.06dp"
+        android:fontFamily="@font/lucida_grande"
+        android:text="Customer Info:"
+        android:textColor="#ECB00B"
+        android:textSize="24.04sp"
+        tools:layout_editor_absoluteX="15.02dp"
+        tools:layout_editor_absoluteY="126.20dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="233.62dp"
+        android:layout_height="45.82dp"
+        android:fontFamily="@font/lucida_grande"
+        android:text="Prospector"
+        android:textColor="#ECB00B"
+        android:textSize="39.06sp"
+        tools:layout_editor_absoluteX="184.04dp"
+        tools:layout_editor_absoluteY="17.28" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="275.68dp"
+        android:layout_height="45.07dp"
+        android:background="@drawable/field"
+        android:ems="10"
+        android:fontFamily="@font/lucida_grande"
+        android:inputType="textPersonName"
+        android:text="First Name"
+        android:textColor="#09024A"
+        android:textSize="19.53sp"
+        tools:layout_editor_absoluteX="9.77dp"
+        tools:layout_editor_absoluteY="172.77dp" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="275.68dp"
+        android:layout_height="45.07dp"
+        android:background="@drawable/field"
+        android:ems="10"
+        android:fontFamily="@font/lucida_grande"
+        android:inputType="textPersonName"
+        android:text="Last Name"
+        android:textColor="#09024A"
+        android:textSize="19.53sp"
+        tools:layout_editor_absoluteX="9.77dp"
+        tools:layout_editor_absoluteY="225.35dp" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="275.68dp"
+        android:layout_height="45.07dp"
+        android:ems="10"
+        android:text="Street"
+        android:textSize="19.53sp"
+        android:fontFamily="@font/lucida_grande"
+        android:textColor="#09024A"
+        android:background="@drawable/field"
+        android:inputType="textPostalAddress"
+        tools:layout_editor_absoluteX="9.77dp"
+        tools:layout_editor_absoluteY="277.93dp" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="275.68dp"
+        android:layout_height="45.07dp"
+        android:background="@drawable/field"
+        android:ems="10"
+        android:fontFamily="@font/lucida_grande"
+        android:inputType="text"
+        android:text="City"
+        android:textColor="#09024A"
+        android:textSize="19.53sp"
+        tools:layout_editor_absoluteX="315dp"
+        tools:layout_editor_absoluteY="277.93dp" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="275.68dp"
+        android:layout_height="45.07dp"
+        android:background="@drawable/field"
+        android:ems="10"
+        android:fontFamily="@font/lucida_grande"
+        android:inputType="text"
+        android:text=" Sales Order No."
+        android:textColor="#09024A"
+        android:textSize="19.53sp"
+        tools:layout_editor_absoluteX="315.49dp"
+        tools:layout_editor_absoluteY="119.44dp" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:inputType="phone"
+        android:layout_width="275.68dp"
+        android:layout_height="45.07dp"
+        android:ems="10"
+        android:text=" Phone"
+        android:textSize="19.53sp"
+        android:fontFamily="@font/lucida_grande"
+        android:textColor="#09024A"
+        android:background="@drawable/field"
+        tools:layout_editor_absoluteX="315.49dp"
+        tools:layout_editor_absoluteY="172.77dp"/>
+
+    <EditText
+        android:id="@+id/editText10"
+        android:inputType="textEmailAddress"
+        android:layout_width="275.68dp"
+        android:layout_height="45.07dp"
+        android:ems="10"
+        android:text="Email"
+        android:textSize="19.53sp"
+        android:fontFamily="@font/lucida_grande"
+        android:textColor="#09024A"
+        android:background="@drawable/field"
+        tools:layout_editor_absoluteX="315.49dp"
+        tools:layout_editor_absoluteY="225.35dp"/>
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="125.45dp"
+        android:layout_height="45.07dp"
+        android:ems="10"
+        android:text="state"
+        android:textSize="19.53sp"
+        android:fontFamily="@font/lucida_grande"
+        android:textColor="#09024A"
+        android:background="@drawable/field"
+        tools:layout_editor_absoluteX="9.77dp"
+        tools:layout_editor_absoluteY="330.52dp"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="135.21dp"
+        android:layout_height="45.07dp"
+        android:background="@drawable/field"
+        android:ems="10"
+        android:fontFamily="@font/lucida_grande"
+        android:inputType="number"
+        android:text="ZipCode"
+        android:textColor="#09024A"
+        android:textSize="19.53sp"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="330dp"
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="125.45dp"
+        android:layout_height="45.07dp"
+        android:ems="10"
+        android:text="Gender"
+        android:textSize="19.53sp"
+        android:fontFamily="@font/lucida_grande"
+        android:textColor="#09024A"
+        android:background="@drawable/field"
+        tools:layout_editor_absoluteX="315.49dp"
+        tools:layout_editor_absoluteY="330.52dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="135.21dp"
+        android:layout_height="45.07dp"
+        android:background="@drawable/field"
+        android:ems="10"
+        android:fontFamily="@font/lucida_grande"
+        android:inputType="number"
+        android:text="Age"
+        android:textColor="#09024A"
+        android:textSize="19.53sp"
+        tools:layout_editor_absoluteX="450dp"
+        tools:layout_editor_absoluteY="330dp"
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/line"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="554dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/line"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="409dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="270.42dp"
+        android:layout_height="29.30dp"
+        android:fontFamily="@font/lucida_grande"
+        android:text="Contact Method:"
+        android:textColor="#FFFFFF"
+        android:textSize="19.53sp"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="498.78dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="270.42dp"
+        android:layout_height="29.30dp"
+        android:fontFamily="@font/lucida_grande"
+        android:text="Reason for Visit:"
+        android:textColor="#FFFFFF"
+        android:textSize="19.53sp"
+        tools:layout_editor_absoluteX="17.28dp"
+        tools:layout_editor_absoluteY="425.16dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="36.81dp"
+        android:layout_height="36.81dp"
+        app:srcCompat="@drawable/manito"
+        tools:layout_editor_absoluteX="283.19dp"
+        tools:layout_editor_absoluteY="428.17dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="36.81dp"
+        android:layout_height="36.81dp"
+        app:srcCompat="@drawable/internet"
+        tools:layout_editor_absoluteX="394.37dp"
+        tools:layout_editor_absoluteY="428.17dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="36.81dp"
+        android:layout_height="36.81dp"
+        app:srcCompat="@drawable/sale"
+        tools:layout_editor_absoluteX="505.54dp"
+        tools:layout_editor_absoluteY="428.17dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="36.81dp"
+        android:layout_height="36.81dp"
+        app:srcCompat="@drawable/mail"
+        tools:layout_editor_absoluteX="283.19dp"
+        tools:layout_editor_absoluteY="500.28dp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="36.81dp"
+        android:layout_height="36.81dp"
+        app:srcCompat="@drawable/email"
+        tools:layout_editor_absoluteX="394.37dp"
+        tools:layout_editor_absoluteY="500.28dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="36.81dp"
+        android:layout_height="36.81dp"
+        app:srcCompat="@drawable/phone"
+        tools:layout_editor_absoluteX="505.54dp"
+        tools:layout_editor_absoluteY="500.28dp" />
+
+    <CheckBox
+        android:id="@+id/check_finance"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        tools:layout_editor_absoluteX="331.27dp"
+        tools:layout_editor_absoluteY="429.67dp" />
+
+    <CheckBox
+        android:id="@+id/check_internet"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        tools:layout_editor_absoluteX="434.93dp"
+        tools:layout_editor_absoluteY="429.67dp" />
+
+    <CheckBox
+        android:id="@+id/check_sale"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        tools:layout_editor_absoluteX="550.61dp"
+        tools:layout_editor_absoluteY="429.67dp" />
+
+    <CheckBox
+        android:id="@+id/check_mail"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        tools:layout_editor_absoluteX="331.27dp"
+        tools:layout_editor_absoluteY="500.28dp" />
+
+    <CheckBox
+        android:id="@+id/check_email"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        tools:layout_editor_absoluteX="434.93dp"
+        tools:layout_editor_absoluteY="500.28dp" />
+
+    <CheckBox
+        android:id="@+id/check_phone"
+        android:layout_width="33dp"
+        android:layout_height="33dp"
+        tools:layout_editor_absoluteX="550.61dp"
+        tools:layout_editor_absoluteY="500.28dp" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="240.38dp"
+        android:layout_height="45.07dp"
+        android:textSize="19.53sp"
+        android:fontFamily="@font/lucida_grande"
+        android:text="Upholstery"
+        android:textColor="#09024A"
+        android:background="@drawable/field"
+        tools:layout_editor_absoluteX="45.07dp"
+        tools:layout_editor_absoluteY="566.38dp"
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="240.38dp"
+        android:layout_height="45.07dp"
+        android:textSize="19.53sp"
+        android:fontFamily="@font/lucida_grande"
+        android:text="Home Office"
+        android:textColor="#09024A"
+        android:background="@drawable/field"
+        tools:layout_editor_absoluteX="45.07dp"
+        tools:layout_editor_absoluteY="612.96dp"/>
+
+    <Spinner
+        android:id="@+id/spinner5"
+        android:layout_width="240.38dp"
+        android:layout_height="45.07dp"
+        android:textSize="19.53sp"
+        android:fontFamily="@font/lucida_grande"
+        android:text="Room Package"
+        android:textColor="#09024A"
+        android:background="@drawable/field"
+        tools:layout_editor_absoluteX="45.07dp"
+        tools:layout_editor_absoluteY="659.53dp"/>
+
+    <Spinner
+        android:id="@+id/spinner6"
+        android:layout_width="240.38dp"
+        android:layout_height="45.07dp"
+        android:textSize="19.53sp"
+        android:fontFamily="@font/lucida_grande"
+        android:text="Matress"
+        android:textColor="#09024A"
+        android:background="@drawable/field"
+        tools:layout_editor_absoluteX="45.07dp"
+        tools:layout_editor_absoluteY="706.10dp" />
+
+    <Spinner
+        android:id="@+id/spinner7"
+        android:layout_width="240.38dp"
+        android:layout_height="45.07dp"
+        android:textSize="19.53sp"
+        android:fontFamily="@font/lucida_grande"
+        android:text="Bedroom"
+        android:textColor="#09024A"
+        android:background="@drawable/field"
+        tools:layout_editor_absoluteX="313.99dp"
+        tools:layout_editor_absoluteY="566.38dp" />
+
+    <Spinner
+        android:id="@+id/spinner8"
+        android:layout_width="240.38dp"
+        android:layout_height="45.07dp"
+        android:textSize="19.53sp"
+        android:fontFamily="@font/lucida_grande"
+        android:text="Occasional"
+        android:textColor="#09024A"
+        android:background="@drawable/field"
+        tools:layout_editor_absoluteX="313.99dp"
+        tools:layout_editor_absoluteY="612.96dp" />
+
+    <Spinner
+        android:id="@+id/spinner9"
+        android:layout_width="240.38dp"
+        android:layout_height="45.07dp"
+        android:textSize="19.53sp"
+        android:fontFamily="@font/lucida_grande"
+        android:text="Dinning"
+        android:textColor="#09024A"
+        android:background="@drawable/field"
+        tools:layout_editor_absoluteX="313.99dp"
+        tools:layout_editor_absoluteY="659.63dp" />
+
+    <Spinner
+        android:id="@+id/spinner10"
+        android:layout_width="240.38dp"
+        android:layout_height="45.07dp"
+        android:textSize="19.53sp"
+        android:fontFamily="@font/lucida_grande"
+        android:text="Miscelaneous"
+        android:textColor="#09024A"
+        android:background="@drawable/field"
+        tools:layout_editor_absoluteX="313.99dp"
+        tools:layout_editor_absoluteY="706.10dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="86.38dp"
+        android:layout_height="86.38dp"
+        android:background="@drawable/fu"
+        tools:layout_editor_absoluteX="68.36dp"
+        tools:layout_editor_absoluteY="775.21dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="86.38dp"
+        android:layout_height="86.38dp"
+        android:background="@drawable/prospect"
+        tools:layout_editor_absoluteX="258.40dp"
+        tools:layout_editor_absoluteY="775.21dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="86.38dp"
+        android:layout_height="86.38dp"
+        android:background="@drawable/interestedi"
+        tools:layout_editor_absoluteX="440.94dp"
+        tools:layout_editor_absoluteY="776.21dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="176.53dp"
+        android:layout_height="17.28dp"
+        android:fontFamily="@font/lucida_grande_bold"
+        android:text="Interested Items"
+        android:textColor="#FFFFFF"
+        android:textSize="15.02sp"
+        tools:layout_editor_absoluteX="440.94dp"
+        tools:layout_editor_absoluteY="867.61dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="176.53dp"
+        android:layout_height="17.28dp"
+        android:fontFamily="@font/lucida_grande_bold"
+        android:text="Prospector"
+        android:textColor="#FFFFFF"
+        android:textSize="15.02sp"
+        tools:layout_editor_absoluteX="258.40dp"
+        tools:layout_editor_absoluteY="867.61dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="176.53dp"
+        android:layout_height="17.28dp"
+        android:fontFamily="@font/lucida_grande_bold"
+        android:text="Follow Up"
+        android:textColor="#FFFFFF"
+        android:textSize="15.02sp"
+        tools:layout_editor_absoluteX="68.36dp"
+        tools:layout_editor_absoluteY="867.61dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="106.67dp"
+        android:layout_height="33.05dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/lucida_grande_bold"
+        android:text="Cancel"
+        android:textColor="#09024A"
+        tools:layout_editor_absoluteX="427.42dp"
+        tools:layout_editor_absoluteY="908.92dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="106.67dp"
+        android:layout_height="33.05dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/lucida_grande_bold"
+        android:text="Save"
+        android:textColor="#09024A"
+        tools:layout_editor_absoluteX="248.64dp"
+        tools:layout_editor_absoluteY="908.92dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="106.67dp"
+        android:layout_height="33.05dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/lucida_grande_bold"
+        android:text="New"
+        android:textColor="#09024A"
+        tools:layout_editor_absoluteX="68.36dp"
+        tools:layout_editor_absoluteY="908.92dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="600.94dp"
+        android:layout_height="28.54dp"
+        android:background="@drawable/rectangle11"
+        android:fontFamily="@font/lucida_grande"
+        android:text="News Crawler"
+        android:textColor="#ECB00B"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="81.13dp" />
+
+
+
+
+
+
+
+
+
