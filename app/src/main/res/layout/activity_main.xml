@@ -12,15 +12,13 @@
         android:id="@+id/customer_info"
         android:layout_width="265.92dp"
         android:layout_height="36.06dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="30dp"
-        android:layout_marginBottom="8dp"
-        android:fontFamily="@font/lucida_grande"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="17dp"
+        android:fontFamily="@font/lucida_grande_bold"
         android:text=" Customer Info:"
         android:textColor="#ECB00B"
         android:textSize="24.04sp"
-        app:layout_constraintBottom_toTopOf="@+id/first_name"
-        app:layout_constraintEnd_toStartOf="@+id/sales_order_no"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button9" />
 
     <TextView
@@ -29,13 +27,11 @@
         android:layout_height="45.82dp"
         android:layout_marginStart="184dp"
         android:layout_marginTop="17dp"
-        android:layout_marginEnd="184dp"
-        android:layout_marginBottom="17dp"
+        android:layout_marginEnd="183dp"
         android:fontFamily="@font/lucida_grande"
-        android:text=" Prospector"
+        android:text="  Prospector"
         android:textColor="#ECB00B"
         android:textSize="39.06sp"
-        app:layout_constraintBottom_toTopOf="@+id/button9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -45,30 +41,31 @@
         android:layout_width="275.68dp"
         android:layout_height="45.07dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="30dp"
-        android:background="@drawable/field"
+        android:background="@drawable/field_background"
         android:ems="10"
         android:fontFamily="@font/lucida_grande"
         android:inputType="textPersonName"
-        android:text=" First Name"
+        android:text="  First Name"
         android:textColor="#09024A"
         android:textSize="19.53sp"
         app:layout_constraintEnd_toStartOf="@+id/phone"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/customer_info" />
+
     <EditText
         android:id="@+id/last_name"
         android:layout_width="275.68dp"
         android:layout_height="45.07dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="7dp"
         android:layout_marginEnd="30dp"
-        android:background="@drawable/field"
+        android:background="@drawable/field_background"
         android:ems="10"
         android:fontFamily="@font/lucida_grande"
         android:inputType="textPersonName"
-        android:text=" Last Name"
+        android:text="  Last Name"
         android:textColor="#09024A"
         android:textSize="19.53sp"
         app:layout_constraintEnd_toStartOf="@+id/email"
@@ -76,17 +73,17 @@
         app:layout_constraintTop_toBottomOf="@+id/first_name" />
 
     <EditText
-        android:id="@+id/street"
+        android:id="@+id/street2"
         android:layout_width="275.68dp"
         android:layout_height="45.07dp"
         android:layout_marginStart="10dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="7dp"
         android:layout_marginEnd="30dp"
-        android:background="@drawable/field"
+        android:background="@drawable/field_background"
         android:ems="10"
         android:fontFamily="@font/lucida_grande"
         android:inputType="textPostalAddress"
-        android:text=" Street"
+        android:text="  Street"
         android:textColor="#09024A"
         android:textSize="19.53sp"
         app:layout_constraintEnd_toStartOf="@+id/city"
@@ -97,13 +94,13 @@
         android:id="@+id/city"
         android:layout_width="275.68dp"
         android:layout_height="45.07dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="7dp"
         android:layout_marginEnd="10dp"
-        android:background="@drawable/field"
+        android:background="@drawable/field_background"
         android:ems="10"
         android:fontFamily="@font/lucida_grande"
         android:inputType="text"
-        android:text=" City"
+        android:text="  City"
         android:textColor="#09024A"
         android:textSize="19.53sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -113,17 +110,15 @@
         android:id="@+id/sales_order_no"
         android:layout_width="275.68dp"
         android:layout_height="45.07dp"
-        android:layout_marginTop="9dp"
+        android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/field"
+        android:background="@drawable/field_background"
         android:ems="10"
         android:fontFamily="@font/lucida_grande"
         android:inputType="text"
-        android:text=" Sales Order No."
+        android:text="  Sales Order No."
         android:textColor="#09024A"
         android:textSize="19.53sp"
-        app:layout_constraintBottom_toTopOf="@+id/phone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button9" />
 
@@ -133,11 +128,11 @@
         android:layout_height="45.07dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="10dp"
-        android:background="@drawable/field"
+        android:background="@drawable/field_background"
         android:ems="10"
         android:fontFamily="@font/lucida_grande"
         android:inputType="phone"
-        android:text=" Phone"
+        android:text="  Phone"
         android:textColor="#09024A"
         android:textSize="19.53sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -147,466 +142,294 @@
         android:id="@+id/email"
         android:layout_width="275.68dp"
         android:layout_height="45.07dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="7dp"
         android:layout_marginEnd="10dp"
-        android:background="@drawable/field"
+        android:background="@drawable/field_background"
         android:ems="10"
         android:fontFamily="@font/lucida_grande"
         android:inputType="textEmailAddress"
-        android:text=" Email"
+        android:text="  Email"
         android:textColor="#09024A"
         android:textSize="19.53sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/phone" />
 
-    <Spinner
-        android:id="@+id/spinner1"
-        android:layout_width="125.45dp"
-        android:layout_height="45.07dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/field"
-        android:ems="10"
-        android:fontFamily="@font/lucida_grande"
-        android:text=" State"
-        android:textColor="#09024A"
-        android:textSize="19.53sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/street" />
-
     <EditText
         android:id="@+id/zip_code"
         android:layout_width="135.21dp"
         android:layout_height="45.07dp"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="8dp"
-        android:background="@drawable/field"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/field_background"
         android:ems="10"
         android:fontFamily="@font/lucida_grande"
         android:inputType="number"
-        android:text=" Zip Code"
+        android:text="  Zip Code"
         android:textColor="#09024A"
         android:textSize="19.53sp"
-        app:layout_constraintStart_toEndOf="@+id/spinner1"
-        app:layout_constraintTop_toBottomOf="@+id/street" />
+        app:layout_constraintEnd_toStartOf="@+id/gender"
+        app:layout_constraintTop_toBottomOf="@+id/street2" />
 
-    <Spinner
-        android:id="@+id/spinner2"
+    <EditText
+        android:id="@+id/state"
         android:layout_width="125.45dp"
         android:layout_height="45.07dp"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="10dp"
-        android:background="@drawable/field"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/field_background"
         android:ems="10"
         android:fontFamily="@font/lucida_grande"
-        android:text=" Gender"
+        android:inputType="number"
+        android:text="  State"
         android:textColor="#09024A"
         android:textSize="19.53sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/street2" />
+
+    <EditText
+        android:id="@+id/gender"
+        android:layout_width="135.21dp"
+        android:layout_height="45.07dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/field_background"
+        android:ems="10"
+        android:fontFamily="@font/lucida_grande"
+        android:inputType="number"
+        android:text="  Gender"
+        android:textColor="#09024A"
+        android:textSize="19.53sp"
+        app:layout_constraintEnd_toStartOf="@+id/age"
+        app:layout_constraintTop_toBottomOf="@+id/city" />
 
     <EditText
         android:id="@+id/age"
-        android:layout_width="135.21dp"
+        android:layout_width="125.45dp"
         android:layout_height="45.07dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="52dp"
-        android:background="@drawable/field"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/field_background"
         android:ems="10"
         android:fontFamily="@font/lucida_grande"
         android:inputType="number"
         android:text=" Age"
         android:textColor="#09024A"
         android:textSize="19.53sp"
-        app:layout_constraintStart_toEndOf="@+id/street"
-        app:layout_constraintTop_toTopOf="@id/city" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/city" />
 
     <TextView
         android:id="@+id/contact_method"
-        android:layout_width="270.42dp"
+        android:layout_width="172.02dp"
         android:layout_height="29.30dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="19dp"
         android:fontFamily="@font/lucida_grande"
         android:text="Contact Method:"
         android:textColor="#FFFFFF"
         android:textSize="19.53sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="270.42dp"
+        android:layout_width="173.52dp"
         android:layout_height="29.30dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="16dp"
         android:fontFamily="@font/lucida_grande"
         android:text="Reason for Visit:"
         android:textColor="#FFFFFF"
         android:textSize="19.53sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner1" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/finance"
         android:layout_width="36.81dp"
         android:layout_height="36.81dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="11dp"
-        app:layout_constraintEnd_toStartOf="@+id/check_finance"
-        app:layout_constraintTop_toBottomOf="@+id/spinner2"
+        app:layout_constraintEnd_toStartOf="@+id/checkbox4"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:srcCompat="@drawable/manito" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/internet"
         android:layout_width="36.81dp"
         android:layout_height="36.81dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="11dp"
-        app:layout_constraintEnd_toStartOf="@+id/check_internet"
-        app:layout_constraintTop_toBottomOf="@+id/spinner2"
+        app:layout_constraintEnd_toStartOf="@+id/checkbox5"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:srcCompat="@drawable/internet" />
 
     <ImageView
-        android:id="@+id/imageView5"
+        android:id="@+id/sale"
         android:layout_width="36.81dp"
         android:layout_height="36.81dp"
-        android:layout_marginTop="28dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="11dp"
-        app:layout_constraintEnd_toStartOf="@+id/check_sale"
-        app:layout_constraintTop_toBottomOf="@+id/age"
+        app:layout_constraintEnd_toStartOf="@+id/checkbox6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
         app:srcCompat="@drawable/sale" />
 
     <ImageView
-        android:id="@+id/imageView6"
+        android:id="@+id/mail"
         android:layout_width="36.81dp"
         android:layout_height="36.81dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="12dp"
         android:layout_marginEnd="11dp"
-        app:layout_constraintEnd_toStartOf="@+id/check_mail"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toStartOf="@+id/checkbox3"
+        app:layout_constraintTop_toBottomOf="@+id/finance"
         app:srcCompat="@drawable/mail" />
 
     <ImageView
-        android:id="@+id/imageView7"
+        android:id="@+id/email_"
         android:layout_width="36.81dp"
         android:layout_height="36.81dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintStart_toEndOf="@+id/check_mail"
-        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="11dp"
+        app:layout_constraintEnd_toStartOf="@+id/checkbox2"
+        app:layout_constraintTop_toBottomOf="@+id/internet"
         app:srcCompat="@drawable/email" />
 
     <ImageView
-        android:id="@+id/imageView8"
+        android:id="@+id/phone_"
         android:layout_width="36.81dp"
         android:layout_height="36.81dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintStart_toEndOf="@+id/check_email"
-        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="11dp"
+        app:layout_constraintEnd_toStartOf="@+id/checkbox1"
+        app:layout_constraintTop_toBottomOf="@+id/sale"
         app:srcCompat="@drawable/phone" />
 
-    <CheckBox
-        android:id="@+id/check_finance"
-        android:layout_width="33dp"
-        android:layout_height="33dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="44dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView4"
-        app:layout_constraintTop_toBottomOf="@+id/spinner2" />
-
-    <CheckBox
-        android:id="@+id/check_internet"
-        android:layout_width="0dp"
-        android:layout_height="33dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="44dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView5"
-        app:layout_constraintTop_toBottomOf="@+id/age" />
-
-    <CheckBox
-        android:id="@+id/check_sale"
-        android:layout_width="33dp"
-        android:layout_height="33dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="8dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/age" />
-
-    <CheckBox
-        android:id="@+id/check_mail"
-        android:layout_width="33dp"
-        android:layout_height="33dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="253dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/check_finance" />
-
-    <CheckBox
-        android:id="@+id/check_email"
-        android:layout_width="33dp"
-        android:layout_height="33dp"
-        android:layout_marginStart="11dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView7"
-        app:layout_constraintTop_toBottomOf="@+id/check_internet" />
-
-    <CheckBox
-        android:id="@+id/check_phone"
-        android:layout_width="33dp"
-        android:layout_height="33dp"
-        android:layout_marginStart="11dp"
-        android:layout_marginTop="20dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView8"
-        app:layout_constraintTop_toBottomOf="@+id/check_sale" />
-
-    <Spinner
-        android:id="@+id/spinner3"
-        android:layout_width="240.38dp"
-        android:layout_height="45.07dp"
-        android:layout_marginStart="41dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="30dp"
-        android:background="@drawable/field"
-        android:fontFamily="@font/lucida_grande"
-        android:text="Upholstery"
-        android:textColor="#09024A"
-        android:textSize="19.53sp"
-        app:layout_constraintEnd_toStartOf="@+id/spinner7"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/contact_method" />
-
-    <Spinner
-        android:id="@+id/spinner4"
-        android:layout_width="240.38dp"
-        android:layout_height="45.07dp"
-        android:layout_marginStart="41dp"
-        android:layout_marginTop="2dp"
-        android:background="@drawable/field"
-        android:fontFamily="@font/lucida_grande"
-        android:text="Home Office"
-        android:textColor="#09024A"
-        android:textSize="19.53sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner3" />
-
-    <Spinner
-        android:id="@+id/spinner5"
-        android:layout_width="240.38dp"
-        android:layout_height="45.07dp"
-        android:layout_marginStart="41dp"
-        android:layout_marginTop="2dp"
-        android:background="@drawable/field"
-        android:fontFamily="@font/lucida_grande"
-        android:text="Room Package"
-        android:textColor="#09024A"
-        android:textSize="19.53sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner4" />
-
-    <Spinner
-        android:id="@+id/spinner6"
-        android:layout_width="240.38dp"
-        android:layout_height="45.07dp"
-        android:layout_marginStart="41dp"
-        android:layout_marginTop="2dp"
-        android:background="@drawable/field"
-        android:fontFamily="@font/lucida_grande"
-        android:text="Matress"
-        android:textColor="#09024A"
-        android:textSize="19.53sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner5" />
-
-    <Spinner
-        android:id="@+id/spinner7"
-        android:layout_width="240.38dp"
-        android:layout_height="45.07dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="48dp"
-        android:background="@drawable/field"
-        android:fontFamily="@font/lucida_grande"
-        android:text="Bedroom"
-        android:textColor="#09024A"
-        android:textSize="19.53sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
-
-    <Spinner
-        android:id="@+id/spinner8"
-        android:layout_width="240.38dp"
-        android:layout_height="45.07dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginEnd="49dp"
-        android:background="@drawable/field"
-        android:fontFamily="@font/lucida_grande"
-        android:text="Occasional"
-        android:textColor="#09024A"
-        android:textSize="19.53sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner7" />
-
-    <Spinner
-        android:id="@+id/spinner9"
-        android:layout_width="240.38dp"
-        android:layout_height="45.07dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginEnd="49dp"
-        android:background="@drawable/field"
-        android:fontFamily="@font/lucida_grande"
-        android:text="Dinning"
-        android:textColor="#09024A"
-        android:textSize="19.53sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner8" />
-
-    <Spinner
-        android:id="@+id/spinner10"
-        android:layout_width="240.38dp"
-        android:layout_height="45.07dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="2dp"
-        android:layout_marginEnd="49dp"
-        android:layout_marginBottom="6dp"
-        android:background="@drawable/field"
-        android:fontFamily="@font/lucida_grande"
-        android:text="Miscelaneous"
-        android:textColor="#09024A"
-        android:textSize="19.53sp"
-        app:layout_constraintBottom_toTopOf="@+id/button10"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/spinner6"
-        app:layout_constraintTop_toBottomOf="@+id/spinner9" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/follow_up_button"
         android:layout_width="86.38dp"
         android:layout_height="86.38dp"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="19dp"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/followu"
-        app:layout_constraintBottom_toTopOf="@+id/textView7"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button10" />
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="86.38dp"
-        android:layout_height="86.38dp"
-        android:layout_marginStart="86dp"
+        android:layout_marginStart="67dp"
         android:layout_marginTop="19dp"
         android:layout_marginEnd="104dp"
-        android:layout_marginBottom="8dp"
-        android:background="@drawable/prospect"
-        app:layout_constraintBottom_toTopOf="@+id/textView8"
-        app:layout_constraintEnd_toStartOf="@+id/button4"
-        app:layout_constraintStart_toEndOf="@+id/button2"
+        android:background="@drawable/followu"
+        app:layout_constraintEnd_toStartOf="@+id/prospect_button"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button10" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/prospect_button"
         android:layout_width="86.38dp"
         android:layout_height="86.38dp"
         android:layout_marginTop="19dp"
-        android:layout_marginEnd="72dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="96dp"
+        android:background="@drawable/prospect"
+        app:layout_constraintEnd_toStartOf="@+id/interested_items_button"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+
+    <Button
+        android:id="@+id/interested_items_button"
+        android:layout_width="86.38dp"
+        android:layout_height="86.38dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="74dp"
         android:background="@drawable/interestedi"
-        app:layout_constraintBottom_toTopOf="@+id/textView6"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button10" />
 
     <TextView
-        android:id="@+id/textView6"
-        android:layout_width="176.53dp"
+        android:id="@+id/interested_items"
+        android:layout_width="160.00dp"
         android:layout_height="17.28dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="36dp"
         android:fontFamily="@font/lucida_grande_bold"
-        android:text="Interested Items"
+        android:text="INTERESTED ITEMS"
         android:textColor="#FFFFFF"
         android:textSize="15.02sp"
-        app:layout_constraintBottom_toTopOf="@+id/button5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintTop_toBottomOf="@+id/interested_items_button" />
 
     <TextView
-        android:id="@+id/textView8"
-        android:layout_width="176.53dp"
+        android:id="@+id/prospect"
+        android:layout_width="91.64dp"
         android:layout_height="17.28dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="54dp"
         android:fontFamily="@font/lucida_grande_bold"
-        android:text="Prospector"
+        android:text="PROSPECT"
         android:textColor="#FFFFFF"
         android:textSize="15.02sp"
-        app:layout_constraintBottom_toTopOf="@+id/button7"
-        app:layout_constraintStart_toEndOf="@+id/textView7" />
+        app:layout_constraintEnd_toStartOf="@+id/interested_items"
+        app:layout_constraintTop_toBottomOf="@+id/prospect_button" />
 
     <TextView
-        android:id="@+id/textView7"
-        android:layout_width="176.53dp"
+        android:id="@+id/follow_up"
+        android:layout_width="105.16dp"
         android:layout_height="17.28dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="113dp"
         android:fontFamily="@font/lucida_grande_bold"
-        android:text="Follow Up"
+        android:text="FOLLOW UP"
         android:textColor="#FFFFFF"
         android:textSize="15.02sp"
-        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintEnd_toStartOf="@+id/prospect"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/follow_up_button" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/cancel"
         android:layout_width="106.67dp"
         android:layout_height="33.05dp"
-        android:layout_marginStart="71dp"
-        android:layout_marginEnd="67dp"
-        android:layout_marginBottom="22dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="14dp"
         android:background="@drawable/rectangle22"
         android:fontFamily="@font/lucida_grande_bold"
-        android:text="Cancel"
+        android:text="SEARCH"
         android:textColor="#09024A"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button7" />
+        app:layout_constraintTop_toBottomOf="@+id/interested_items" />
 
     <Button
         android:id="@+id/button7"
         android:layout_width="106.67dp"
         android:layout_height="33.05dp"
-        android:layout_marginStart="74dp"
-        android:layout_marginBottom="22dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="14dp"
         android:background="@drawable/rectangle22"
         android:fontFamily="@font/lucida_grande_bold"
-        android:text="Save"
+        android:text="SAVE"
         android:textColor="#09024A"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button6" />
+        app:layout_constraintEnd_toStartOf="@+id/cancel"
+        app:layout_constraintStart_toEndOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/prospect" />
 
     <Button
         android:id="@+id/button6"
         android:layout_width="106.67dp"
         android:layout_height="33.05dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="9dp"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="14dp"
         android:background="@drawable/rectangle22"
         android:fontFamily="@font/lucida_grande_bold"
-        android:text="New"
+        android:text="NEW"
         android:textColor="#09024A"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+        app:layout_constraintTop_toBottomOf="@+id/follow_up" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="600.94dp"
         android:layout_height="28.54dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginTop="18dp"
         android:background="@drawable/rectangle112"
         android:fontFamily="@font/lucida_grande"
         android:text="News Crawler"
@@ -620,16 +443,223 @@
         android:layout_width="510.05dp"
         android:layout_height="45.07dp"
         android:layout_marginStart="41dp"
-        android:layout_marginTop="6dp"
-        android:layout_marginEnd="50dp"
+        android:layout_marginTop="211dp"
+        android:layout_marginEnd="49dp"
         android:background="@drawable/protectionplan"
         android:fontFamily="@font/lucida_grande_bold"
         android:text="Protection Plan"
         android:textColor="#09024A"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/spinner6" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
+    <Button
+        android:id="@+id/checkbox1"
+        android:layout_width="18.78dp"
+        android:layout_height="18.78dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="29dp"
+        android:background="@drawable/check_box_"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox6" />
+
+    <Button
+        android:id="@+id/checkbox6"
+        android:layout_width="18.78dp"
+        android:layout_height="18.78dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="29dp"
+        android:background="@drawable/check_box_"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/checkbox3"
+        android:layout_width="18.78dp"
+        android:layout_height="18.78dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="44dp"
+        android:background="@drawable/check_box_"
+        app:layout_constraintEnd_toStartOf="@+id/email_"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox4" />
+
+    <Button
+        android:id="@+id/checkbox4"
+        android:layout_width="18.78dp"
+        android:layout_height="18.78dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="44dp"
+        android:background="@drawable/check_box_"
+        app:layout_constraintEnd_toStartOf="@+id/internet"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/checkbox2"
+        android:layout_width="18.78dp"
+        android:layout_height="18.78dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="44dp"
+        android:background="@drawable/check_box_"
+        app:layout_constraintEnd_toStartOf="@+id/phone_"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox5" />
+
+    <Button
+        android:id="@+id/checkbox5"
+        android:layout_width="18.78dp"
+        android:layout_height="18.78dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="44dp"
+        android:background="@drawable/check_box_"
+        app:layout_constraintEnd_toStartOf="@+id/sale"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:id="@+id/upholstery"
+        android:layout_width="240.38dp"
+        android:layout_height="45.07dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/field_background"
+        android:ems="10"
+        android:fontFamily="@font/lucida_grande"
+        android:inputType="textPostalAddress"
+        android:text="  Upholstery"
+        android:textColor="#09024A"
+        android:textSize="19.53sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/ocassional"
+        android:layout_width="240.38dp"
+        android:layout_height="45.07dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="49dp"
+        android:background="@drawable/field_background"
+        android:ems="10"
+        android:fontFamily="@font/lucida_grande"
+        android:inputType="textPostalAddress"
+        android:text="  Ocassional"
+        android:textColor="#09024A"
+        android:textSize="19.53sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bedroom" />
+
+    <EditText
+        android:id="@+id/miscelaneous"
+        android:layout_width="240.38dp"
+        android:layout_height="45.07dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="49dp"
+        android:background="@drawable/field_background"
+        android:ems="10"
+        android:fontFamily="@font/lucida_grande"
+        android:inputType="textPostalAddress"
+        android:text="  Miscellaneous"
+        android:textColor="#09024A"
+        android:textSize="19.53sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dinning2" />
+
+    <EditText
+        android:id="@+id/dinning2"
+        android:layout_width="240.38dp"
+        android:layout_height="45.07dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="49dp"
+        android:background="@drawable/field_background"
+        android:ems="10"
+        android:fontFamily="@font/lucida_grande"
+        android:inputType="textPostalAddress"
+        android:text="  Dinning"
+        android:textColor="#09024A"
+        android:textSize="19.53sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ocassional" />
+
+    <EditText
+        android:id="@+id/bedroom"
+        android:layout_width="240.38dp"
+        android:layout_height="45.07dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="49dp"
+        android:background="@drawable/field_background"
+        android:ems="10"
+        android:fontFamily="@font/lucida_grande"
+        android:inputType="textPostalAddress"
+        android:text="  Bedroom"
+        android:textColor="#09024A"
+        android:textSize="19.53sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <EditText
+        android:id="@+id/mattress"
+        android:layout_width="240.38dp"
+        android:layout_height="45.07dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/field_background"
+        android:ems="10"
+        android:fontFamily="@font/lucida_grande"
+        android:inputType="textPostalAddress"
+        android:text="  Mattress"
+        android:textColor="#09024A"
+        android:textSize="19.53sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/room_package" />
+
+    <EditText
+        android:id="@+id/room_package"
+        android:layout_width="240.38dp"
+        android:layout_height="45.07dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/field_background"
+        android:ems="10"
+        android:fontFamily="@font/lucida_grande"
+        android:inputType="textPostalAddress"
+        android:text="  Room Package"
+        android:textColor="#09024A"
+        android:textSize="19.53sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homeoffice" />
+
+    <EditText
+        android:id="@+id/homeoffice"
+        android:layout_width="240.38dp"
+        android:layout_height="45.07dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/field_background"
+        android:ems="10"
+        android:fontFamily="@font/lucida_grande"
+        android:inputType="textPostalAddress"
+        android:text="  Home Office"
+        android:textColor="#09024A"
+        android:textSize="19.53sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/upholstery" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="600.94dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="286dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9"
+        app:srcCompat="@drawable/separator" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="600.94dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/contact_method"
+        app:srcCompat="@drawable/separator" />
 
 
 
